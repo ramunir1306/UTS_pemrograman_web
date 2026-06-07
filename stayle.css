@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.paragraf {
+  width: 45%;
+  margin: auto;
+}
+.icons {
+  margin-top: 8px;
+  margin-bottom: 4px;
+  font-size: 32px;
+}
+.icons:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+.icons-ig {
+  color: rgb(255, 0, 0);
+}
+.icons-fb {
+  color: rgb(19, 78, 207);
+}
+.icons-tT {
+  color: black;
+}
+.icons-wa {
+  color: rgb(4, 210, 4);
+}
+.icon {
+  margin-top: 8px;
+  margin-bottom: 4px;
+  font-size: 48px;
+}
+.icon-html {
+  color: rgb(255, 102, 0);
+}
+.icon-css {
+  color: rgb(0, 102, 255);
+}
+.icon-js {
+  color: rgb(255, 255, 0);
+}
+.card-pj:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
